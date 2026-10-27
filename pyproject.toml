@@ -1,0 +1,14 @@
+[project]
+name = "beyond2d-review"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "jupyter",
+    "ipykernel",
+]
+
+[tool.ruff]
+# 1.throughput/scripts is generated from the notebooks by 1.throughput/run_throughput.sh
+extend-exclude = ["1.throughput/scripts"]
